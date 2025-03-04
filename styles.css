@@ -1,0 +1,141 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 1rem;
+    color: white;
+}
+
+nav .logo img {
+    height: 50px;
+    border-radius: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav .social-media a {
+    margin: 0 10px;
+}
+
+nav .social-media img {
+    height: 30px;
+    border-radius: 50px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Sections */
+section {
+    padding: 2rem;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap:15px;
+    padding:50px;
+    margin:18px;
+    background-color:aliceblue;
+}
+.container img{
+    width:200px;
+    height:170px;
+    border-radius:15px;
+}
+
+.dest-container{
+    display:flex;
+    background-color:aliceblue;
+}
+
+.dest-container img{
+    width:200px;
+    height:170px;
+    border-radius:15px;
+}
+
+/* Style the contact information section */
+.contact-container {
+    display: flex;
+    justify-content: space-around; /* Distributes items evenly */
+    align-items: center; /* Vertically centers items */
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-top: 2px solid #ccc;
+}
+
+/* Style each contact item */
+.contact-item {
+    text-align: center;
+}
+
+.contact-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+}
+
+.contact-item a:hover {
+    color: #007bff; /* Change color on hover */
+}
